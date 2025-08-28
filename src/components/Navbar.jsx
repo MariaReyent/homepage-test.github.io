@@ -10,15 +10,15 @@ export function Navbar() {
   ];
   return (
     <nav className="bg-white   flex  mx-auto items-center justify-center p-4 lg:h-[100px] sm:h-[70px] ">
-      <div className="flex items-center justify-center gap-4">
-        <div class="flex md:hidden flex-col justify-between w-8 h-6 cursor-pointer mr-4">
+      <div className="flex items-center justify-center gap-2">
+        <div class="flex md:hidden flex-col justify-between w-8 h-6 cursor-pointer mr-6">
           <span class="h-1 bg-gray-700 rounded"></span>
           <span class="h-1 bg-gray-700 rounded"></span>
           <span class="h-1 bg-gray-700 rounded"></span>
         </div>
         <div className="relative text-black font-montserrat lg:text-6xl sm:text-4xl font-bold lg:mr-30 sm:mr-40  py-2 items-center">
-          brain
-          <p className="absolute -top-0.5 lg:left-40  sm:left-20 lg:text-2xl sm:text-lg text-[#10B1E8] font-bold ">
+          <span className="text-4xl sm:text-5xl lg:text-6xl">brain</span>
+          <p className="absolute -top-0.5 -right-4 lg:left-40   lg:text-2xl sm:text-lg text-[#10B1E8] font-bold ">
             work
           </p>
         </div>

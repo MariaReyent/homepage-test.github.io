@@ -12,7 +12,7 @@ import SmallScreenFigures from "../assets/smscreen-figures.svg";
 export function Hero() {
   return (
     <>
-      <div className=" hidden h-[291px] bg-[#344150] md:flex items-center justify-between">
+      <div className=" hidden  bg-[#344150] md:flex items-center justify-between">
         <div className=" hidden xl:block xl:relative  ml-28 mr-2">
           <img
             src={Triangle}
@@ -58,8 +58,8 @@ export function Hero() {
             >
               ПРИЄДНУЙСЯ ДО НАШОЇ КОМАНДИ
             </header>
-            <div className="flex flex-row h-[200px] mb-7">
-              <div className="font-exo2 text-[13px] font-normal md:text-[12px] max-w-full lg:max-w-[609px]  sm:max-w-[350px] md:max-w-[400px] flex-shrink ">
+            <div className="flex flex-row  mb-7">
+              <div className="font-exo2  text-[13px] font-normal md:text-[12px] max-w-full lg:max-w-[609px]  sm:max-w-[350px] md:max-w-[400px] flex-shrink ">
                 <p>
                   Brain: понад чверть століття продаємо компʼютери, сучасні
                   гаджети та інші товари клієнтам, компаніям і державним
@@ -84,16 +84,16 @@ export function Hero() {
                   Brain.
                 </p>
               </div>
-
               <div className=" ml-7 flex flex-col  md:flex-col-reverse lg:flex-col-reverse xl:flex-row xl:gap-3  flex-shrink-0 md:mb-3 lg:mb-3 relative">
-                <div className="flex flex-col xl:gap-6 xl:max-w-[150px] md:max-w-[90px] lg:m-w-[90px] md:gap-1 lg:gap-1 absolute md:bottom-10 lg:bottom-10">
+                <div className="flex flex-col xl:gap-6 xl:max-w-[150px] md:max-w-[90px] lg:m-w-[90px] md:gap-1 lg:gap-1 absolute md:bottom-10 lg:bottom-10  xl:top-10">
                   <img src={Logo} alt="Brain logo" />
                   <img src={Itbox} alt="Itbox logo" />
                 </div>
                 <div className="flex  lg:max-w-[90px] md:max-w-[90px] xl:max-w-[130px] lg:p-2 md:mb-42 lg:mb-42 xl:mb-0  xl:ml-50">
                   <img src={Boxes} alt="Boxes image" />
                 </div>
-              </div>~
+              </div>
+              ~
             </div>
           </div>
         </div>
