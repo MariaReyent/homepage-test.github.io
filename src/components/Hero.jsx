@@ -85,15 +85,15 @@ export function Hero() {
                 </p>
               </div>
 
-              <div className="xl:mb-4 ml-7 flex flex-col lg:flex-col-reverse md:flex-col-reverse xl:flex-row xl:gap-3 lg:gap-1 flex-shrink-0 md:mb-3 relative">
-                <div className="flex flex-col lg:gap-6 lg:max-w-[150px] md:max-w-[90px] md:gap-1 absolute md:bottom-10 lg:bottom-10">
+              <div className=" ml-7 flex flex-col  md:flex-col-reverse lg:flex-col-reverse xl:flex-row xl:gap-3  flex-shrink-0 md:mb-3 lg:mb-3 relative">
+                <div className="flex flex-col xl:gap-6 xl:max-w-[150px] md:max-w-[90px] lg:m-w-[90px] md:gap-1 lg:gap-1 absolute md:bottom-10 lg:bottom-10">
                   <img src={Logo} alt="Brain logo" />
                   <img src={Itbox} alt="Itbox logo" />
                 </div>
-                <div className="flex relative  lg:max-w-[120px] md:max-w-[80px] lg:p-2 md:bottom-40 xl:bottom-0 xl:left-40 ">
+                <div className="flex  lg:max-w-[90px] md:max-w-[90px] xl:max-w-[130px] lg:p-2 md:mb-42 lg:mb-42 xl:mb-0  xl:ml-50">
                   <img src={Boxes} alt="Boxes image" />
                 </div>
-              </div>
+              </div>~
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export function Hero() {
           alt="Header Picture"
           className="mt-5 max-w-[360px] h-[234px] mx-auto"
         />
-        <div className=" text-white font-exo2 text-[13px] max-w-[325px] mt-3 text-center ">
+        <div className=" text-white font-exo2 text-[13px] max-w-[325px] mt-3  ">
           <p>
             Brain: понад чверть століття продаємо компʼютери, сучасні гаджети та
             інші товари клієнтам, компаніям і державним організаціям.

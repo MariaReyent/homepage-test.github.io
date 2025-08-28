@@ -16,9 +16,9 @@ export function Navbar() {
           <span class="h-1 bg-gray-700 rounded"></span>
           <span class="h-1 bg-gray-700 rounded"></span>
         </div>
-        <div className="relative text-black font-montserrat lg:text-6xl sm:text-4xl font-bold mr-40  py-2 items-center">
+        <div className="relative text-black font-montserrat lg:text-6xl sm:text-4xl font-bold lg:mr-30 sm:mr-40  py-2 items-center">
           brain
-          <p className="absolute -top-0.5 lg:left-42  sm:left-20 lg:text-2xl sm:text-lg text-[#10B1E8] font-bold ">
+          <p className="absolute -top-0.5 lg:left-40  sm:left-20 lg:text-2xl sm:text-lg text-[#10B1E8] font-bold ">
             work
           </p>
         </div>
@@ -29,17 +29,17 @@ export function Navbar() {
           <a
             key={i}
             href={item.href}
-            className={`flex items-center gap-1 px-3 py-2 transition 
+            className={`flex items-center gap-2 lg:px-7 md:px-1 py-2 transition 
               hover:text-gray-400 
               ${
                 i === navItems.length - 1
-                  ? "flex items-center justify-center  bg-gray-600 text-white   hover:bg-gray-700 px-6 py-[2px]"
+                  ? "flex items-center justify-center  bg-gray-600 text-white   hover:bg-gray-700 "
                   : ""
               }`}
           >
             {item.name}
             {i !== navItems.length - 1 && (
-              <MdOutlineKeyboardDoubleArrowRight className="w-4 h-4 mt-1 mr-[1px]" />
+              <MdOutlineKeyboardDoubleArrowRight className="w-4 h-4 mt-1" />
             )}
           </a>
         ))}
@@ -48,7 +48,7 @@ export function Navbar() {
       <div className="flex md:hidden items-center">
         <a
           href={navItems[navItems.length - 1].href}
-          className="flex items-center justify-center bg-gray-600 text-white hover:bg-gray-700 px-4 py-2"
+          className="flex items-center justify-center bg-gray-600 text-white hover:bg-gray-700 px-4 ml-20 py-2"
         >
           {navItems[navItems.length - 1].name}
         </a>
