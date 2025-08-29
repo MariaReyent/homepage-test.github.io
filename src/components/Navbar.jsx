@@ -1,4 +1,5 @@
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
+import BrainLogo from "../assets/brainlogo2.png";
 
 export function Navbar() {
   const navItems = [
@@ -16,9 +17,13 @@ export function Navbar() {
           <span class="h-1 bg-gray-700 rounded"></span>
           <span class="h-1 bg-gray-700 rounded"></span>
         </div>
-        <div className="relative text-black font-montserrat lg:text-6xl sm:text-4xl font-bold lg:mr-30 sm:mr-40  py-2 items-center">
-          <span className="text-4xl sm:text-5xl lg:text-6xl">brain</span>
-          <p className="absolute -top-0.5 -right-4 lg:left-40   lg:text-2xl sm:text-lg text-[#10B1E8] font-bold ">
+        <div className="relative lg:mr-30 sm:mr-40  py-2 items-center">
+          <img
+            src={BrainLogo}
+            alt="Brain Logo"
+            className="w-16 sm:w-20 md:w-28 lg:w-35"
+          />
+          <p className="absolute -top-2 -right-7 lg:-top-0.5 lg:-right-2 lg:left-40 md:-top-2 md:-right-5   lg:text-2xl  sm:-top-3  sm:-right-7  sm:text-lg text-[#10B1E8] font-bold ">
             work
           </p>
         </div>

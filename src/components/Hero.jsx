@@ -93,7 +93,6 @@ export function Hero() {
                   <img src={Boxes} alt="Boxes image" />
                 </div>
               </div>
-              ~
             </div>
           </div>
         </div>
